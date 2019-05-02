@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "unpkg",
+      "library": "@aspnet/signalr@1.1.4",
+      "destination": "wwwroot/lib/signalr",
+      "files": [
+        "signalr.js",
+        "signalr.min.js"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "datatables.net@1.10.19",
+      "destination": "wwwroot/lib/data-tables",
+      "files": [
+        "js/jquery.dataTables.min.js",
+        "js/jquery.dataTables.js"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "datatables@1.10.19",
+      "destination": "wwwroot/lib/data-tables/",
+      "files": [
+        "css/dataTables.bootstrap4.css",
+        "css/dataTables.bootstrap4.min.css"
+      ]
+    },
+    {
+      "library": "moment.js@2.24.0",
+      "destination": "wwwroot/lib/moment",
+      "files": [
+        "moment.min.js",
+        "moment.js"
+      ]
+    }
+  ]
+}
